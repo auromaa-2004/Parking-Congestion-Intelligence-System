@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/IDE junk
+tempCodeRunnerFile*
+.vscode/
+
+# Data (organizer-provided, not for public redistribution)
+data/raw/*.csv
+data/processed/*.csv
+
+# Streamlit secrets, if any
+.streamlit/secrets.toml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
