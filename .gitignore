@@ -8,15 +8,14 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Editor/IDE junk
+# Editor junk
 tempCodeRunnerFile*
 .vscode/
 
-# Data (organizer-provided, not for public redistribution)
+# Data 
 data/raw/*.csv
-data/processed/*.csv
 
-# Streamlit secrets, if any
+# Streamlit secrets
 .streamlit/secrets.toml
 
 # OS junk
