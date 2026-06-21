@@ -67,7 +67,6 @@ Aggregated hotspots → ranked, prioritized zones:
   Volume is weighted most heavily (80%) because the problem statement asks specifically about **traffic flow / congestion impact**, which is driven more by how often and how persistently a location is obstructed than by the danger classification of the violation type. Severity, recurrence, and vehicle type act as differentiating signals among high-volume zones rather than primary drivers.
 
 - Assigns a **priority tier** using **percentile-based cutoffs** (top 10% = CRITICAL, next 20% = HIGH, next 30% = MEDIUM, next 25% = LOW, remainder = VERY LOW) rather than fixed score thresholds — this makes the tiering robust to the actual shape of the score distribution instead of breaking down if scores cluster unexpectedly.
-- Generates a plain-language recommendation per tier (e.g., "Immediate enforcement deployment required").
 
 ### Serving layer
 
